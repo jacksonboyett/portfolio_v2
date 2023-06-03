@@ -662,9 +662,14 @@ a:hover {
     display: block;
   }
 
-  .portfolio-home {
-    display: block;
+  .navbar ul {
+    display: none;
   }
+
+  .portfolio-home > ul {
+    display: block !important;
+  }
+
 }
 
 .navbar-mobile {
