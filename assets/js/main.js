@@ -233,3 +233,8 @@
   new PureCounter();
 
 })()
+
+const email = document.querySelector('#email');
+email.addEventListener('input', (event) => {
+  console.log(email)
+})
